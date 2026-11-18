@@ -92,6 +92,15 @@ for t in range(len(T)):
                  f"{w[wc < 0.5].sum():.5f},{w[(wc >= 0.5) & (wc < 1.5)].sum():.5f},{w[wc >= 1.5].sum():.5f}")
 open(os.path.join(out, f"melt_weights_{name}.csv"), "w").write("\n".join(lines) + "\n")
 print("\n".join(lines))
+# peaks of the f density averaged over Q (raw bins, bin width dw): the level energies quoted in the text
+lines = ["T,peak_energy_J,f_density_at_peak"]
+for t in range(len(T)):
+    y = Qp[t]
+    pk = [k for k in range(1, nb - 1) if y[k] > y[k - 1] and y[k] >= y[k + 1]]
+    for k in sorted(sorted(pk, key=lambda k: -y[k])[:4]):
+        lines.append(f"{T[t]:g},{wc[k]:.3f},{y[k]:.4f}")
+open(os.path.join(out, f"melt_peaks_{name}.csv"), "w").write("\n".join(lines) + "\n")
+print("\n".join(l for l in lines if l.startswith(("T,", f"{T[0]:g},"))))
 
 # ---- figure
 ti = []
