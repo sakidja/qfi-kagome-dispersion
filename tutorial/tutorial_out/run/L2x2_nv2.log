@@ -77,3 +77,82 @@ config 5: vacancies [3, 9]
   check energy sum of QFI vs f(q): max |diff| = 1.402e-04  (small unless omega_max is below the bandwidth)
   check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
   saved tutorial_out/run/L2x2_nv2_c5.npz  total 32.2s
+=== kagome 2x2, N0=12, nvac=2, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 0: vacancies [10, 11]
+  N=10 bonds=17 E0=-4.4781868291 cutoff dE<5.526  (0.0s)
+  sector nup= 2 D=    45 K=    19  0.0s
+  sector nup= 3 D=   120 K=    79  0.0s
+  sector nup= 4 D=   210 K=   159  0.1s
+  sector nup= 5 D=   252 K=   198  0.1s
+  sector nup= 6 D=   210 K=   159  0.1s
+  sector nup= 7 D=   120 K=    79  0.0s
+  sector nup= 8 D=    45 K=    19  0.0s
+  check F <= G: max_q (f - g) = -2.572e-09  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 1.381e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tutorial_out/run/L2x2_nv2_c0.npz  total 0.3s
+config 1: vacancies [2, 4]
+  N=10 bonds=16 E0=-4.7228397138 cutoff dE<5.526  (0.0s)
+  sector nup= 2 D=    45 K=    19  0.0s
+  sector nup= 3 D=   120 K=    77  0.0s
+  sector nup= 4 D=   210 K=   154  0.1s
+  sector nup= 5 D=   252 K=   191  0.1s
+  sector nup= 6 D=   210 K=   154  0.1s
+  sector nup= 7 D=   120 K=    77  0.0s
+  sector nup= 8 D=    45 K=    19  0.0s
+  check F <= G: max_q (f - g) = -2.786e-13  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 1.243e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tutorial_out/run/L2x2_nv2_c1.npz  total 0.3s
+config 2: vacancies [1, 3]
+  N=10 bonds=16 E0=-4.7228397138 cutoff dE<5.526  (0.0s)
+  sector nup= 2 D=    45 K=    19  0.0s
+  sector nup= 3 D=   120 K=    77  0.0s
+  sector nup= 4 D=   210 K=   154  0.1s
+  sector nup= 5 D=   252 K=   191  0.1s
+  sector nup= 6 D=   210 K=   154  0.0s
+  sector nup= 7 D=   120 K=    77  0.0s
+  sector nup= 8 D=    45 K=    19  0.0s
+  check F <= G: max_q (f - g) = -2.783e-13  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 1.243e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tutorial_out/run/L2x2_nv2_c2.npz  total 0.3s
+config 3: vacancies [3, 6]
+  N=10 bonds=16 E0=-4.8473261739 cutoff dE<5.526  (0.0s)
+  sector nup= 2 D=    45 K=    18  0.0s
+  sector nup= 3 D=   120 K=    77  0.0s
+  sector nup= 4 D=   210 K=   152  0.1s
+  sector nup= 5 D=   252 K=   188  0.1s
+  sector nup= 6 D=   210 K=   152  0.1s
+  sector nup= 7 D=   120 K=    77  0.0s
+  sector nup= 8 D=    45 K=    18  0.0s
+  check F <= G: max_q (f - g) = -1.765e-14  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 7.156e-05  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tutorial_out/run/L2x2_nv2_c3.npz  total 0.3s
+config 4: vacancies [2, 8]
+  N=10 bonds=16 E0=-4.8473261739 cutoff dE<5.526  (0.0s)
+  sector nup= 2 D=    45 K=    18  0.0s
+  sector nup= 3 D=   120 K=    77  0.0s
+  sector nup= 4 D=   210 K=   152  0.1s
+  sector nup= 5 D=   252 K=   188  0.1s
+  sector nup= 6 D=   210 K=   152  0.1s
+  sector nup= 7 D=   120 K=    77  0.0s
+  sector nup= 8 D=    45 K=    18  0.0s
+  check F <= G: max_q (f - g) = -1.799e-14  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 7.156e-05  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tutorial_out/run/L2x2_nv2_c4.npz  total 0.3s
+config 5: vacancies [3, 9]
+  N=10 bonds=16 E0=-4.5477015635 cutoff dE<5.526  (0.0s)
+  sector nup= 2 D=    45 K=    20  0.0s
+  sector nup= 3 D=   120 K=    78  0.0s
+  sector nup= 4 D=   210 K=   158  0.1s
+  sector nup= 5 D=   252 K=   197  0.1s
+  sector nup= 6 D=   210 K=   158  0.0s
+  sector nup= 7 D=   120 K=    78  0.0s
+  sector nup= 8 D=    45 K=    20  0.0s
+  check F <= G: max_q (f - g) = -3.684e-07  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 1.402e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tutorial_out/run/L2x2_nv2_c5.npz  total 0.2s

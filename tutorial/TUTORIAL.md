@@ -105,6 +105,27 @@ python step8_two_qubits.py --out tutorial_out
 
 The circuit X, X, H, CNOT prepares the singlet. Measuring both qubits in the Z basis gives G. With a depolarizing error of strength p, G = −(1 − p) and the singlet fraction is 1 − 3p/4; the pair stays entangled for p below 2/3. The script prints the measured and the exact values and saves the raw counts. The same circuit runs on any quantum simulator or processor.
 
+## Step 9. Coherence between wave vectors, and its phase
+
+```
+python ../scripts/plot_qq.py tutorial_out/run --tag L2x2
+python ../scripts/plot_qq.py tutorial_out/run --tag L2x2 --phase
+```
+
+So far the map f(q) used one wave vector at a time. It is the diagonal of a larger object, the QFI matrix F(q, q′) between two wave vectors. This step looks at the rest of that matrix.
+
+The first command draws the size of every element, from zero to three vacancies. Without vacancies the lattice repeats, and F(q, q′) is zero unless q and q′ differ by a reciprocal lattice vector: the matrix is made of four blocks and is empty outside them. With a vacancy the area outside the blocks fills in. The table `Fqq_share_L2x2.csv` gives the share of the weight outside the blocks.
+
+The second command draws single configurations: the clean lattice, and one vacancy at two positions A and B on the same sublattice. It has three rows.
+
+* **Top, the size.** A and B give the same picture. The size of an element does not tell where the vacancy is.
+* **Middle, the phase with the origin fixed on the lattice.** A and B differ. Moving the vacancy by R multiplies each element by exp(−i (q − q′)·R). The position of the vacancy is written in the phase.
+* **Bottom, the phase with the origin at the vacancy.** A and B agree again, and every element is real: only a sign is left.
+
+The file `Fqq_phase_summary_L2x2_T0.02.csv` gives the checks as numbers. On this cluster at T = 0.02 the sizes of A and B agree to rounding error, the complex elements differ by up to 1.600 with the fixed origin, and they agree to rounding error with the origin at the vacancy. Outside the blocks, 92 of the 116 elements above the display floor are negative. The largest element outside the blocks is 0.800 for one configuration and 0.269 for the complex average over the six positions: averaging over positions removes most of the phase.
+
+What to take from it: the diagonal f(q) has no phase at all, so it cannot say where the vacancy sits. The elements between different wave vectors can.
+
 ## Going further
 
 * 18 sites: the same commands with `--L1 2 --L2 3`. This needs a compute node; the job scripts are in `slurm/`.

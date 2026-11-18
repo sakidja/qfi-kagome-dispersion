@@ -42,5 +42,9 @@ python $S/plot_twist.py $O/twist --tag L2x2 --line all
 echo "===== step 8: two qubits ====="
 python step8_two_qubits.py --out $O
 
+echo "===== step 9: QFI matrix between wave vectors, size and phase ====="
+python $S/plot_qq.py $O/run --tag L2x2
+python $S/plot_qq.py $O/run --tag L2x2 --phase
+
 echo "===== files written ====="
 find $O -type f | sort
