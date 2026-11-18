@@ -6,7 +6,7 @@ Code and data for the paper
 
 Ridwan Sakidja, Department of Physics, Astronomy and Materials Science, Missouri State University
 
-Preprint: Zenodo, DOI to be added.
+Preprint: Zenodo, https://doi.org/10.5281/zenodo.24331367
 
 Repository: https://github.com/sakidja/qfi-kagome-dispersion
 
@@ -92,7 +92,7 @@ bash run_tutorial.sh 2>&1 | tee tutorial_out/log.txt
 
 ## How to cite
 
-R. Sakidja, "Quantum Fisher information as a dispersion map for magnetic states: a worked example on the diluted kagome lattice", preprint, Zenodo (2026), DOI to be added. Code and data: https://github.com/sakidja/qfi-kagome-dispersion
+R. Sakidja, "Quantum Fisher information as a dispersion map for magnetic states: a worked example on the diluted kagome lattice", preprint, Zenodo (2026), https://doi.org/10.5281/zenodo.24331367. Code and data: https://github.com/sakidja/qfi-kagome-dispersion
 
 ## License
 
