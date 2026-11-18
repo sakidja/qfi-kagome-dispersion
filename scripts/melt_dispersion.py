@@ -40,6 +40,7 @@ ap.add_argument("--emax", type=float, default=None, help="top of the energy axis
 ap.add_argument("--weight", type=float, default=0.95, help="share of the spectral weight kept below the top of the energy axis")
 ap.add_argument("--gamma", type=float, default=0.5, help="colour scale exponent: 0.5 square root (default), 1 linear")
 ap.add_argument("--sigma", type=float, default=0.04, help="energy broadening in J; 0 shows the raw bins")
+ap.add_argument("--scale", choices=["column", "shared"], default="column", help="colour scale: column = each temperature has its own (default; the bottom row keeps one common axis and shows the loss of weight), shared = one scale for all temperatures")
 ap.add_argument("--paper", action="store_true", help="page width figure at 300 dpi")
 a = ap.parse_args()
 
@@ -83,11 +84,12 @@ for t in range(len(T)):
     for k in range(nb):
         lines.append(f"{T[t]:g},{wc[k]:.4f},{Sp[t, k]:.6f},{Gp[t, k]:.6f},{Qp[t, k]:.6f},{np.tanh(wc[k] / (2 * T[t])) ** 2:.6f}")
 open(os.path.join(out, f"melt_profile_{name}.csv"), "w").write("\n".join(lines) + "\n")
-lines = ["T,mean_g_over_Q,mean_f_over_Q,share_below_0.5J,share_0.5_to_1.5J,share_above_1.5J,energy_centroid_J"]
+lines = ["T,mean_g_over_Q,mean_f_over_Q,share_below_0.5J,share_0.5_to_1.5J,share_above_1.5J,energy_centroid_J,f_below_0.5J,f_0.5_to_1.5J,f_above_1.5J"]
 for t in range(len(T)):
     w = Qp[t] * dw; tot = w.sum()
     lines.append(f"{T[t]:g},{Gp[t].sum() * dw:.5f},{tot:.5f},{w[wc < 0.5].sum() / tot:.4f},{w[(wc >= 0.5) & (wc < 1.5)].sum() / tot:.4f},"
-                 f"{w[wc >= 1.5].sum() / tot:.4f},{(w * wc).sum() / tot:.4f}")
+                 f"{w[wc >= 1.5].sum() / tot:.4f},{(w * wc).sum() / tot:.4f},"
+                 f"{w[wc < 0.5].sum():.5f},{w[(wc >= 0.5) & (wc < 1.5)].sum():.5f},{w[wc >= 1.5].sum():.5f}")
 open(os.path.join(out, f"melt_weights_{name}.csv"), "w").write("\n".join(lines) + "\n")
 print("\n".join(lines))
 
@@ -119,15 +121,21 @@ xe = np.arange(nq + 1); ye = qe[:keep.sum() + 1]
 step = max(1, nq // 4)
 for c, k in enumerate(ti):
     for r, (M, v, cm) in enumerate([(Sm[k], vS, "magma"), (Qm[k], vQ, "viridis")]):
-        im = ax[r, c].pcolormesh(xe, ye, M.T, cmap=cm, norm=PowerNorm(a.gamma, vmin=0, vmax=v), rasterized=True)
+        im = ax[r, c].pcolormesh(xe, ye, M.T, cmap=cm, norm=PowerNorm(a.gamma, vmin=0, vmax=v if a.scale == "shared" else M.max()), rasterized=True)
         ax[r, c].set_xticks(xe[:-1][::step] + 0.5); ax[r, c].set_xticklabels([f"{x:.1f}" for x in Qn[::step]])
         ax[r, c].set_xlabel("|Q|")
         if c == 0:
             ax[r, c].set_ylabel("energy (J)")
         else:
             ax[r, c].set_yticklabels([])
-        if c == nc - 1:
-            fig.colorbar(im, ax=ax[r, :], pad=0.01, aspect=30, label=["S(Q, ω)", "QFI density"][r])
+        if a.scale == "shared":
+            if c == nc - 1:
+                fig.colorbar(im, ax=ax[r, :], pad=0.01, aspect=30, label=["S(Q, ω)", "QFI density"][r])
+        else:
+            cb = fig.colorbar(im, ax=ax[r, c], pad=0.02, aspect=25)
+            cb.ax.tick_params(labelsize=6 if a.paper else 9)
+            if c == nc - 1:
+                cb.set_label(["S(Q, ω)", "QFI density"][r])
     ax[0, c].set_title(f"T = {T[k]:g} J")
     ax[2, c].plot(wc[keep], smooth(Gp[k][None])[0][keep], color="#c8641f", lw=1.5, label="g density")
     ax[2, c].plot(wc[keep], smooth(Qp[k][None])[0][keep], color="#1f4e79", lw=2, label="f density (QFI)")

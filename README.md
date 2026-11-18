@@ -74,7 +74,8 @@ The commands are given as run from one working folder that holds the scripts and
 | Table 5 | `python shell_test.py results --tag L2x3 --nvac 1` |
 | Table 6, Figure 8 | `sbatch run_gs.slurm`, then `python gs_map.py gs` |
 | Table 7, Figure 9 | `python qfi_kagome_ed.py --L1 2 --L2 2 --nvac 1 --nconf 6 --T 0.02 0.05 0.1 0.2 0.3 0.5 0.7 1.0 1.5 2.0 --no_spectra --out tmelt`, then `python shell_test.py tmelt --tag L2x2 --nvac 1` and `python melt_movie.py tmelt --tag L2x2 --nvac 1` |
-| Table 8, Figure 10 | `sbatch run_gs2.slurm`, then `python gs_map.py gs2` |
+| Table 8, Figure 10 | `sbatch run_melt_disp.slurm`, then `python melt_dispersion.py tmelt_tw --tag L2x2 --nvac 1 --paper` and the same with `--nvac 0` (tables `melt_weights_*.csv`) |
+| Table 9, Figure 11 | `sbatch run_gs2.slurm`, then `python gs_map.py gs2` |
 | Clean 18 site column of Table 2 | `sbatch run_clean_fast.slurm`, then copy `results_clean/L2x3_nv0_c0.npz` into `results/` |
 
 The production runs behind `results/`, `results_twist/` and `tw12/` are given by the job scripts in `slurm/`.
