@@ -1,0 +1,103 @@
+=== kagome 2x2, N0=12, nvac=1, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0]
+config 0: vacancies [11]
+  N=11 bonds=20 E0=-4.9676939989 cutoff dE<36.841  (79.5s)
+  sector nup= 0 D=     1 K=     1  0.0s
+  sector nup= 1 D=    11 K=    11  0.1s
+  sector nup= 2 D=    55 K=    55  0.0s
+  sector nup= 3 D=   165 K=   165  5.0s
+  sector nup= 4 D=   330 K=   330  21.6s
+  sector nup= 5 D=   462 K=   462  39.2s
+  sector nup= 6 D=   462 K=   462  39.0s
+  sector nup= 7 D=   330 K=   330  20.5s
+  sector nup= 8 D=   165 K=   165  4.9s
+  sector nup= 9 D=    55 K=    55  0.0s
+  sector nup=10 D=    11 K=    11  0.0s
+  sector nup=11 D=     1 K=     1  0.0s
+  check F <= G: max_q (f - g) = -1.722e-02  (should be <= ~1e-10)
+  check lowest T: min_q f/g = 0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tmelt/L2x2_nv1_c0.npz  total 209.9s
+config 1: vacancies [4]
+  N=11 bonds=20 E0=-4.9676939989 cutoff dE<36.841  (64.2s)
+  sector nup= 0 D=     1 K=     1  0.0s
+  sector nup= 1 D=    11 K=    11  0.0s
+  sector nup= 2 D=    55 K=    55  0.0s
+  sector nup= 3 D=   165 K=   165  2.2s
+  sector nup= 4 D=   330 K=   330  8.9s
+  sector nup= 5 D=   462 K=   462  31.1s
+  sector nup= 6 D=   462 K=   462  33.6s
+  sector nup= 7 D=   330 K=   330  17.6s
+  sector nup= 8 D=   165 K=   165  4.0s
+  sector nup= 9 D=    55 K=    55  0.0s
+  sector nup=10 D=    11 K=    11  0.0s
+  sector nup=11 D=     1 K=     1  0.0s
+  check F <= G: max_q (f - g) = -1.722e-02  (should be <= ~1e-10)
+  check lowest T: min_q f/g = 0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tmelt/L2x2_nv1_c1.npz  total 161.8s
+config 2: vacancies [2]
+  N=11 bonds=20 E0=-4.9676939989 cutoff dE<36.841  (59.0s)
+  sector nup= 0 D=     1 K=     1  0.0s
+  sector nup= 1 D=    11 K=    11  0.0s
+  sector nup= 2 D=    55 K=    55  0.1s
+  sector nup= 3 D=   165 K=   165  4.4s
+  sector nup= 4 D=   330 K=   330  18.2s
+  sector nup= 5 D=   462 K=   462  33.4s
+  sector nup= 6 D=   462 K=   462  17.9s
+  sector nup= 7 D=   330 K=   330  11.1s
+  sector nup= 8 D=   165 K=   165  4.3s
+  sector nup= 9 D=    55 K=    55  0.0s
+  sector nup=10 D=    11 K=    11  0.0s
+  sector nup=11 D=     1 K=     1  0.0s
+  check F <= G: max_q (f - g) = -1.722e-02  (should be <= ~1e-10)
+  check lowest T: min_q f/g = 0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tmelt/L2x2_nv1_c2.npz  total 148.5s
+config 3: vacancies [1]
+  N=11 bonds=20 E0=-4.9676939989 cutoff dE<36.841  (43.6s)
+  sector nup= 0 D=     1 K=     1  0.0s
+  sector nup= 1 D=    11 K=    11  0.1s
+  sector nup= 2 D=    55 K=    55  0.0s
+  sector nup= 3 D=   165 K=   165  2.6s
+  sector nup= 4 D=   330 K=   330  13.4s
+  sector nup= 5 D=   462 K=   462  26.6s
+  sector nup= 6 D=   462 K=   462  19.4s
+  sector nup= 7 D=   330 K=   330  16.7s
+  sector nup= 8 D=   165 K=   165  4.1s
+  sector nup= 9 D=    55 K=    55  0.0s
+  sector nup=10 D=    11 K=    11  0.0s
+  sector nup=11 D=     1 K=     1  0.0s
+  check F <= G: max_q (f - g) = -1.722e-02  (should be <= ~1e-10)
+  check lowest T: min_q f/g = 0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tmelt/L2x2_nv1_c3.npz  total 126.7s
+config 4: vacancies [3]
+  N=11 bonds=20 E0=-4.9676939989 cutoff dE<36.841  (62.1s)
+  sector nup= 0 D=     1 K=     1  0.0s
+  sector nup= 1 D=    11 K=    11  0.0s
+  sector nup= 2 D=    55 K=    55  0.0s
+  sector nup= 3 D=   165 K=   165  1.2s
+  sector nup= 4 D=   330 K=   330  15.2s
+  sector nup= 5 D=   462 K=   462  28.7s
+  sector nup= 6 D=   462 K=   462  25.2s
+  sector nup= 7 D=   330 K=   330  17.2s
+  sector nup= 8 D=   165 K=   165  4.0s
+  sector nup= 9 D=    55 K=    55  0.0s
+  sector nup=10 D=    11 K=    11  0.0s
+  sector nup=11 D=     1 K=     1  0.1s
+  check F <= G: max_q (f - g) = -1.722e-02  (should be <= ~1e-10)
+  check lowest T: min_q f/g = 0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tmelt/L2x2_nv1_c4.npz  total 154.0s
+config 5: vacancies [6]
+  N=11 bonds=20 E0=-4.9676939989 cutoff dE<36.841  (44.7s)
+  sector nup= 0 D=     1 K=     1  0.0s
+  sector nup= 1 D=    11 K=    11  0.0s
+  sector nup= 2 D=    55 K=    55  0.1s
+  sector nup= 3 D=   165 K=   165  1.7s
+  sector nup= 4 D=   330 K=   330  17.4s
+  sector nup= 5 D=   462 K=   462  32.4s
+  sector nup= 6 D=   462 K=   462  32.2s
+  sector nup= 7 D=   330 K=   330  13.1s
+  sector nup= 8 D=   165 K=   165  3.8s
+  sector nup= 9 D=    55 K=    55  0.0s
+  sector nup=10 D=    11 K=    11  0.0s
+  sector nup=11 D=     1 K=     1  0.0s
+  check F <= G: max_q (f - g) = -1.722e-02  (should be <= ~1e-10)
+  check lowest T: min_q f/g = -0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved tmelt/L2x2_nv1_c5.npz  total 145.5s

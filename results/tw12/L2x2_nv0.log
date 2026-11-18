@@ -1,0 +1,240 @@
+config 0: vacancies []  twist (0, 0) x 2pi
+  N=12 bonds=24 E0=-5.4448752170 cutoff dE<5.526  (1.7s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     3  0.0s
+  sector nup= 3 D=   220 K=    67  0.0s
+  sector nup= 4 D=   495 K=   240  0.3s
+  sector nup= 5 D=   792 K=   456  1.4s
+  sector nup= 6 D=   924 K=   563  2.2s
+  sector nup= 7 D=   792 K=   456  2.0s
+  sector nup= 8 D=   495 K=   240  0.9s
+  sector nup= 9 D=   220 K=    67  0.2s
+  sector nup=10 D=    66 K=     3  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -3.839e-09   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t0_0.npz  total 8.8s
+config 0: vacancies []  twist (0, 0.25) x 2pi
+  N=12 bonds=24 E0=-5.4343972405 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    65  0.0s
+  sector nup= 4 D=   495 K=   241  0.3s
+  sector nup= 5 D=   792 K=   460  1.0s
+  sector nup= 6 D=   924 K=   569  1.9s
+  sector nup= 7 D=   792 K=   460  1.9s
+  sector nup= 8 D=   495 K=   241  0.8s
+  sector nup= 9 D=   220 K=    65  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.261e-09   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t0_1.npz  total 6.8s
+config 0: vacancies []  twist (0, 0.5) x 2pi
+  N=12 bonds=24 E0=-5.3943739601 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    70  0.0s
+  sector nup= 4 D=   495 K=   244  0.3s
+  sector nup= 5 D=   792 K=   468  1.1s
+  sector nup= 6 D=   924 K=   573  1.9s
+  sector nup= 7 D=   792 K=   468  1.9s
+  sector nup= 8 D=   495 K=   244  0.9s
+  sector nup= 9 D=   220 K=    70  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.034e-08   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t0_2.npz  total 6.9s
+config 0: vacancies []  twist (0, 0.75) x 2pi
+  N=12 bonds=24 E0=-5.4343972405 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    65  0.0s
+  sector nup= 4 D=   495 K=   241  0.3s
+  sector nup= 5 D=   792 K=   460  1.0s
+  sector nup= 6 D=   924 K=   569  2.0s
+  sector nup= 7 D=   792 K=   460  1.9s
+  sector nup= 8 D=   495 K=   241  0.9s
+  sector nup= 9 D=   220 K=    65  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.261e-09   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t0_3.npz  total 6.9s
+config 0: vacancies []  twist (0.25, 0) x 2pi
+  N=12 bonds=24 E0=-5.4343972405 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    65  0.0s
+  sector nup= 4 D=   495 K=   241  0.3s
+  sector nup= 5 D=   792 K=   460  1.0s
+  sector nup= 6 D=   924 K=   569  1.9s
+  sector nup= 7 D=   792 K=   460  1.9s
+  sector nup= 8 D=   495 K=   241  0.9s
+  sector nup= 9 D=   220 K=    65  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.261e-09   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t1_0.npz  total 6.8s
+config 0: vacancies []  twist (0.25, 0.25) x 2pi
+  N=12 bonds=24 E0=-5.4343972405 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    65  0.0s
+  sector nup= 4 D=   495 K=   241  0.3s
+  sector nup= 5 D=   792 K=   460  1.1s
+  sector nup= 6 D=   924 K=   569  2.0s
+  sector nup= 7 D=   792 K=   460  1.9s
+  sector nup= 8 D=   495 K=   241  0.9s
+  sector nup= 9 D=   220 K=    65  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.261e-09   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t1_1.npz  total 6.9s
+config 0: vacancies []  twist (0.25, 0.5) x 2pi
+  N=12 bonds=24 E0=-5.3641974335 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     1  0.0s
+  sector nup= 3 D=   220 K=    73  0.0s
+  sector nup= 4 D=   495 K=   247  0.3s
+  sector nup= 5 D=   792 K=   472  1.1s
+  sector nup= 6 D=   924 K=   578  1.9s
+  sector nup= 7 D=   792 K=   472  1.8s
+  sector nup= 8 D=   495 K=   247  0.9s
+  sector nup= 9 D=   220 K=    73  0.2s
+  sector nup=10 D=    66 K=     1  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -2.468e-07   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t1_2.npz  total 6.7s
+config 0: vacancies []  twist (0.25, 0.75) x 2pi
+  N=12 bonds=24 E0=-5.3641974335 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     1  0.0s
+  sector nup= 3 D=   220 K=    73  0.0s
+  sector nup= 4 D=   495 K=   247  0.3s
+  sector nup= 5 D=   792 K=   472  1.1s
+  sector nup= 6 D=   924 K=   578  2.0s
+  sector nup= 7 D=   792 K=   472  1.8s
+  sector nup= 8 D=   495 K=   247  0.9s
+  sector nup= 9 D=   220 K=    73  0.2s
+  sector nup=10 D=    66 K=     1  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -2.468e-07   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t1_3.npz  total 6.8s
+config 0: vacancies []  twist (0.5, 0) x 2pi
+  N=12 bonds=24 E0=-5.3943739601 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    70  0.0s
+  sector nup= 4 D=   495 K=   244  0.3s
+  sector nup= 5 D=   792 K=   468  1.1s
+  sector nup= 6 D=   924 K=   573  1.9s
+  sector nup= 7 D=   792 K=   468  1.9s
+  sector nup= 8 D=   495 K=   244  0.9s
+  sector nup= 9 D=   220 K=    70  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.034e-08   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t2_0.npz  total 7.0s
+config 0: vacancies []  twist (0.5, 0.25) x 2pi
+  N=12 bonds=24 E0=-5.3641974335 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     1  0.0s
+  sector nup= 3 D=   220 K=    73  0.0s
+  sector nup= 4 D=   495 K=   247  0.3s
+  sector nup= 5 D=   792 K=   472  1.2s
+  sector nup= 6 D=   924 K=   578  2.2s
+  sector nup= 7 D=   792 K=   472  2.0s
+  sector nup= 8 D=   495 K=   247  1.0s
+  sector nup= 9 D=   220 K=    73  0.2s
+  sector nup=10 D=    66 K=     1  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -2.468e-07   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t2_1.npz  total 7.4s
+config 0: vacancies []  twist (0.5, 0.5) x 2pi
+  N=12 bonds=24 E0=-5.3943739601 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    70  0.0s
+  sector nup= 4 D=   495 K=   244  0.3s
+  sector nup= 5 D=   792 K=   468  1.2s
+  sector nup= 6 D=   924 K=   573  2.1s
+  sector nup= 7 D=   792 K=   468  2.0s
+  sector nup= 8 D=   495 K=   244  0.9s
+  sector nup= 9 D=   220 K=    70  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.034e-08   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t2_2.npz  total 7.5s
+config 0: vacancies []  twist (0.5, 0.75) x 2pi
+  N=12 bonds=24 E0=-5.3641974335 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     1  0.0s
+  sector nup= 3 D=   220 K=    73  0.0s
+  sector nup= 4 D=   495 K=   247  0.3s
+  sector nup= 5 D=   792 K=   472  1.2s
+  sector nup= 6 D=   924 K=   578  2.1s
+  sector nup= 7 D=   792 K=   472  2.0s
+  sector nup= 8 D=   495 K=   247  1.0s
+  sector nup= 9 D=   220 K=    73  0.2s
+  sector nup=10 D=    66 K=     1  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -2.468e-07   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t2_3.npz  total 7.4s
+config 0: vacancies []  twist (0.75, 0) x 2pi
+  N=12 bonds=24 E0=-5.4343972405 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    65  0.0s
+  sector nup= 4 D=   495 K=   241  0.3s
+  sector nup= 5 D=   792 K=   460  1.1s
+  sector nup= 6 D=   924 K=   569  2.2s
+  sector nup= 7 D=   792 K=   460  2.1s
+  sector nup= 8 D=   495 K=   241  1.0s
+  sector nup= 9 D=   220 K=    65  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.261e-09   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t3_0.npz  total 7.6s
+config 0: vacancies []  twist (0.75, 0.25) x 2pi
+  N=12 bonds=24 E0=-5.3641974335 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     1  0.0s
+  sector nup= 3 D=   220 K=    73  0.0s
+  sector nup= 4 D=   495 K=   247  0.3s
+  sector nup= 5 D=   792 K=   472  1.1s
+  sector nup= 6 D=   924 K=   578  2.1s
+  sector nup= 7 D=   792 K=   472  1.9s
+  sector nup= 8 D=   495 K=   247  0.9s
+  sector nup= 9 D=   220 K=    73  0.2s
+  sector nup=10 D=    66 K=     1  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -2.468e-07   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t3_1.npz  total 7.3s
+config 0: vacancies []  twist (0.75, 0.5) x 2pi
+  N=12 bonds=24 E0=-5.3641974335 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     1  0.0s
+  sector nup= 3 D=   220 K=    73  0.0s
+  sector nup= 4 D=   495 K=   247  0.3s
+  sector nup= 5 D=   792 K=   472  1.1s
+  sector nup= 6 D=   924 K=   578  2.1s
+  sector nup= 7 D=   792 K=   472  1.9s
+  sector nup= 8 D=   495 K=   247  0.9s
+  sector nup= 9 D=   220 K=    73  0.2s
+  sector nup=10 D=    66 K=     1  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -2.468e-07   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t3_2.npz  total 7.3s
+config 0: vacancies []  twist (0.75, 0.75) x 2pi
+  N=12 bonds=24 E0=-5.4343972405 cutoff dE<5.526  (0.6s)
+  sector nup= 1 D=    12 K=     0  0.0s
+  sector nup= 2 D=    66 K=     2  0.0s
+  sector nup= 3 D=   220 K=    65  0.0s
+  sector nup= 4 D=   495 K=   241  0.3s
+  sector nup= 5 D=   792 K=   460  1.1s
+  sector nup= 6 D=   924 K=   569  2.1s
+  sector nup= 7 D=   792 K=   460  2.0s
+  sector nup= 8 D=   495 K=   241  0.9s
+  sector nup= 9 D=   220 K=    65  0.2s
+  sector nup=10 D=    66 K=     2  0.0s
+  sector nup=11 D=    12 K=     0  0.0s
+  check F <= G: max_Q (f - g) = -1.261e-09   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tw12/L2x2_nv0_c0_t3_3.npz  total 7.4s

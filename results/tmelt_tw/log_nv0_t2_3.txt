@@ -1,0 +1,17 @@
+config 0: vacancies []  twist (0.5, 0.75) x 2pi
+  N=12 bonds=24 E0=-5.3641974335 cutoff dE<36.841  (0.5s)
+  sector nup= 0 D=     1 K=     1  0.0s
+  sector nup= 1 D=    12 K=    12  0.0s
+  sector nup= 2 D=    66 K=    66  0.0s
+  sector nup= 3 D=   220 K=   220  0.1s
+  sector nup= 4 D=   495 K=   495  0.8s
+  sector nup= 5 D=   792 K=   792  2.6s
+  sector nup= 6 D=   924 K=   924  4.2s
+  sector nup= 7 D=   792 K=   792  4.2s
+  sector nup= 8 D=   495 K=   495  2.9s
+  sector nup= 9 D=   220 K=   220  0.7s
+  sector nup=10 D=    66 K=    66  0.1s
+  sector nup=11 D=    12 K=    12  0.0s
+  sector nup=12 D=     1 K=     1  0.0s
+  check F <= G: max_Q (f - g) = -2.468e-07   sum rule mean_Q g = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  saved tmelt_tw/L2x2_nv0_c0_t2_3.npz  total 16.1s

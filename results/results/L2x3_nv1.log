@@ -1,0 +1,102 @@
+=== kagome 2x3, N0=18, nvac=1, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 4: vacancies [1]
+=== kagome 2x3, N0=18, nvac=1, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 5: vacancies [4]
+=== kagome 2x3, N0=18, nvac=1, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 0: vacancies [17]
+  N=17 bonds=32 E0=-7.6806525818 cutoff dE<5.526  (3.4s)
+  N=17 bonds=32 E0=-7.7138802088 cutoff dE<5.526  (3.3s)
+  N=17 bonds=32 E0=-7.6806525818 cutoff dE<5.526  (3.7s)
+  sector nup= 4 D=  2380 K=    38  1.9s
+  sector nup= 4 D=  2380 K=    37  1.7s
+  sector nup= 4 D=  2380 K=    38  1.9s
+=== kagome 2x3, N0=18, nvac=1, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 2: vacancies [3]
+=== kagome 2x3, N0=18, nvac=1, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 1: vacancies [6]
+=== kagome 2x3, N0=18, nvac=1, configs=6, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 3: vacancies [16]
+  N=17 bonds=32 E0=-7.6806525818 cutoff dE<5.526  (3.2s)
+  N=17 bonds=32 E0=-7.6806525818 cutoff dE<5.526  (3.3s)
+  N=17 bonds=32 E0=-7.6806525818 cutoff dE<5.526  (3.6s)
+  sector nup= 4 D=  2380 K=    38  1.9s
+  sector nup= 4 D=  2380 K=    38  1.6s
+  sector nup= 4 D=  2380 K=    38  1.5s
+  sector nup= 5 D=  6188 K=   474  28.8s
+  sector nup= 5 D=  6188 K=   487  33.1s
+  sector nup= 5 D=  6188 K=   487  36.5s
+  sector nup= 5 D=  6188 K=   487  25.6s
+  sector nup= 5 D=  6188 K=   487  34.0s
+  sector nup= 5 D=  6188 K=   487  34.4s
+  sector nup= 6 D= 12376 K=  1951  185.6s
+  sector nup= 6 D= 12376 K=  1908  191.1s
+  sector nup= 6 D= 12376 K=  1951  185.6s
+  sector nup= 6 D= 12376 K=  1951  207.1s
+  sector nup= 6 D= 12376 K=  1951  220.4s
+  sector nup= 6 D= 12376 K=  1951  235.1s
+  sector nup= 7 D= 19448 K=  4285  537.5s
+  sector nup= 7 D= 19448 K=  4285  546.2s
+  sector nup= 7 D= 19448 K=  4285  665.6s
+  sector nup= 7 D= 19448 K=  4285  630.0s
+  sector nup= 7 D= 19448 K=  4202  763.1s
+  sector nup= 7 D= 19448 K=  4285  776.1s
+  sector nup= 8 D= 24310 K=  6165  994.4s
+  sector nup= 8 D= 24310 K=  6165  1113.1s
+  sector nup= 8 D= 24310 K=  6165  1164.4s
+  sector nup= 8 D= 24310 K=  6165  1123.7s
+  sector nup= 8 D= 24310 K=  6165  1308.9s
+  sector nup= 8 D= 24310 K=  6056  1529.2s
+  sector nup= 9 D= 24310 K=  6165  1029.0s
+  sector nup= 9 D= 24310 K=  6165  1327.5s
+  sector nup= 9 D= 24310 K=  6165  1371.4s
+  sector nup= 9 D= 24310 K=  6165  1063.1s
+  sector nup= 9 D= 24310 K=  6165  1503.9s
+  sector nup=10 D= 19448 K=  4285  633.4s
+  sector nup=11 D= 12376 K=  1951  241.1s
+  sector nup=12 D=  6188 K=   487  37.0s
+  sector nup=13 D=  2380 K=    38  1.7s
+  check F <= G: max_q (f - g) = -4.853e-04  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 2.937e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = -0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved results/L2x3_nv1_c4.npz  total 3843.4s
+  sector nup= 9 D= 24310 K=  6056  1402.4s
+  sector nup=10 D= 19448 K=  4285  700.2s
+  sector nup=10 D= 19448 K=  4285  761.4s
+  sector nup=11 D= 12376 K=  1951  233.7s
+  sector nup=10 D= 19448 K=  4285  752.3s
+  sector nup=10 D= 19448 K=  4285  798.6s
+  sector nup=12 D=  6188 K=   487  35.7s
+  sector nup=13 D=  2380 K=    38  1.8s
+  check F <= G: max_q (f - g) = -3.913e-04  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 3.010e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = -0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved results/L2x3_nv1_c1.npz  total 4209.3s
+  sector nup=11 D= 12376 K=  1951  250.3s
+  sector nup=12 D=  6188 K=   487  34.3s
+  sector nup=13 D=  2380 K=    38  1.8s
+  check F <= G: max_q (f - g) = -4.853e-04  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 2.937e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = -0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved results/L2x3_nv1_c5.npz  total 4433.0s
+  sector nup=11 D= 12376 K=  1951  228.7s
+  sector nup=11 D= 12376 K=  1951  267.3s
+  sector nup=12 D=  6188 K=   487  38.8s
+  sector nup=13 D=  2380 K=    38  1.8s
+  check F <= G: max_q (f - g) = -3.913e-04  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 3.010e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = -0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved results/L2x3_nv1_c2.npz  total 4462.3s
+  sector nup=12 D=  6188 K=   487  33.7s
+  sector nup=13 D=  2380 K=    38  1.8s
+  check F <= G: max_q (f - g) = -4.853e-04  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 2.937e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = -0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved results/L2x3_nv1_c3.npz  total 4486.1s
+  sector nup=10 D= 19448 K=  4202  699.0s
+  sector nup=11 D= 12376 K=  1908  258.3s
+  sector nup=12 D=  6188 K=   474  35.3s
+  sector nup=13 D=  2380 K=    37  1.8s
+  check F <= G: max_q (f - g) = -1.176e-04  (should be <= ~1e-10)
+  check energy sum of QFI vs f(q): max |diff| = 3.025e-04  (small unless omega_max is below the bandwidth)
+  check lowest T: min_q f/g = -0.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved results/L2x3_nv1_c0.npz  total 4914.2s

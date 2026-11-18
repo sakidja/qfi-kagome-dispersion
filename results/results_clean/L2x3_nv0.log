@@ -1,0 +1,24 @@
+=== kagome 2x3, N0=18, nvac=0, configs=1, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 0: vacancies []
+  N=18 bonds=36 E0=-8.0482707735 cutoff dE<5.526  (3.2s)
+  sector nup= 4 D=  3060 K=     1  5.8s
+  sector nup= 5 D=  8568 K=   324  76.7s
+  sector nup= 6 D= 18564 K=  1956  572.1s
+  sector nup= 7 D= 31824 K=  5408  1409.5s
+  sector nup= 8 D= 43758 K=  9352  5486.4s
+=== kagome 2x3, N0=18, nvac=0, configs=1, T=[0.02, 0.05, 0.1, 0.2, 0.3]
+config 0: vacancies []
+  N=18 bonds=36 E0=-8.0482707735 cutoff dE<5.526  fast path  (1.8s)
+  sector nup= 0 (and 18) D=     1 K=     0  0.0s
+  sector nup= 1 (and 17) D=    18 K=     0  0.0s
+  sector nup= 2 (and 16) D=   153 K=     0  0.0s
+  sector nup= 3 (and 15) D=   816 K=     0  0.0s
+  sector nup= 4 (and 14) D=  3060 K=     1  1.4s
+  sector nup= 5 (and 13) D=  8568 K=   324  21.6s
+  sector nup= 6 (and 12) D= 18564 K=  1956  178.0s
+  sector nup= 7 (and 11) D= 31824 K=  5408  2698.4s
+  sector nup= 8 (and 10) D= 43758 K=  9352  9252.2s
+  sector nup= 9          D= 48620 K= 11136  12446.9s
+  check F <= G: max_q (f - g) = -1.780e-07  (should be <= ~1e-10)
+  check lowest T: min_q f/g = 1.0000 over q with g > 0 (approaches 1 as T -> 0; a degenerate ground multiplet keeps it below 1)
+  saved results_clean/L2x3_nv0_c0.npz  total 24600.6s

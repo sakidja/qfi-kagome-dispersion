@@ -1,0 +1,22 @@
+{
+ "L1": 2,
+ "L2": 3,
+ "nvac": 3,
+ "nconf": 8,
+ "conf": 4,
+ "seed": 1234,
+ "T": [
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.3
+ ],
+ "J": 1.0,
+ "eps": 1e-08,
+ "omega_max": 6.0,
+ "nbins": 120,
+ "no_spectra": false,
+ "mem_gb": 40.0,
+ "out": "results"
+}
