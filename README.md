@@ -8,7 +8,20 @@ Ridwan Sakidja, Department of Physics, Astronomy and Materials Science, Missouri
 
 Preprint: Zenodo, DOI to be added.
 
+Repository: https://github.com/sakidja/qfi-kagome-dispersion
+
 The model is the spin 1/2 Heisenberg antiferromagnet on the kagome lattice with site vacancies, on periodic clusters of 12, 18 and 27 sites. The scripts compute the quantum Fisher information (QFI) matrix of the thermal state by exact diagonalization, map it in wave vector and energy, and resolve it bond by bond around the vacancies.
+
+## Quick start
+
+```
+git clone https://github.com/sakidja/qfi-kagome-dispersion.git
+cd qfi-kagome-dispersion/tutorial
+mkdir -p tutorial_out
+bash run_tutorial.sh 2>&1 | tee tutorial_out/log.txt
+```
+
+This runs the 12 site example of the paper from start to end. The steps are explained in `tutorial/TUTORIAL.md`.
 
 ## Requirements
 
@@ -45,6 +58,8 @@ The 12 site runs are small and fit on a laptop; use one thread per process. The 
 
 ## Tables and figures of the paper
 
+The commands are given as run from one working folder that holds the scripts and the result folders. In this repository the scripts are in `scripts/` and the result folders are under `results/`; copy the scripts next to the result folders, or give the paths.
+
 | Item | Command |
 |---|---|
 | Figure 1 | `python draw_circuit_fig.py` |
@@ -73,6 +88,10 @@ cd tutorial
 mkdir -p tutorial_out
 bash run_tutorial.sh 2>&1 | tee tutorial_out/log.txt
 ```
+
+## How to cite
+
+R. Sakidja, "Quantum Fisher information as a dispersion map for magnetic states: a worked example on the diluted kagome lattice", preprint, Zenodo (2026), DOI to be added. Code and data: https://github.com/sakidja/qfi-kagome-dispersion
 
 ## License
 
